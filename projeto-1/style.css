@@ -1,0 +1,76 @@
+body {
+    background: #6eb37f;
+}
+
+.wrapper {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #262626;
+    padding: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+.wrapper h2 {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10%;
+}
+
+input[type='text'] {
+    height: 40px;
+    font-size: 24px;
+    width: calc(100% - 20px); /* Ajuste para caber na largura */
+    padding: 0 10px;
+}
+
+button {
+    background: #EE4477;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+input[type='radio'] {
+    display: none; /* Esconde o radio button original */
+}
+
+input[type='radio'] + b {
+    display: inline-block;
+    width: 30px; /* Tamanho desejado */
+    height: 30px; /* Tamanho desejado */
+    border: 2px solid #fff;
+    margin: 10px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 30px; /* Centraliza o texto */
+    font-size: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+
+input[type='radio']:checked + b {
+    background: #EE4477;
+    color: #fff;
+}
+
+input[type='radio'] + b:hover {
+    background: #444;
+}
+
+#result {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin-top: 20px;
+}

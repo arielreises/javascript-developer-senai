@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleção de Idiomas</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .flag {
+            display: inline-block;
+            margin: 20px;
+            cursor: pointer;
+        }
+        img {
+            width: 200px;
+            height: auto;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <h1>Выберите язык | Select the language</h1>
+    <div class="container">
+        <div class="flag">
+            <a href="index_russia.html">
+                <img src="./assets/images/flags/flag_of_Russia.svg" alt="Флаг России">
+            </a>
+            <p>Русский</p>
+        </div>
+        <div class="flag">
+            <a href="index_usa.html">
+                <img src="./assets/images/flags/flag_of_the_United_States.svg" alt="Bandeira dos Estados Unidos">
+            </a>
+            <p>English</p>
+        </div>
+    </div>
+</body>
+</html>
