@@ -24,7 +24,7 @@ if(attempts < maxguesses) {
 
 if(userNumber > computerNumber){
 
-document.getElementById('textOutput').innerHTML = 'Your number is too high'
+document.getElementById('textOutput').innerHTML = 'Seu número é muito alto'
 document.getElementById('inputBox').value = ''
 attempts++
 document.getElementById('attempts').innerHTML = attempts
@@ -32,7 +32,7 @@ document.getElementById('attempts').innerHTML = attempts
 
 else if(userNumber < computerNumber){
 
-document.getElementById('textOutput').innerHTML = 'Your number is too low'
+document.getElementById('textOutput').innerHTML = 'Seu número é muito baixo'
 document.getElementById('inputBox').value = ''
 attempts++
 document.getElementById('attempts').innerHTML = attempts
@@ -40,7 +40,7 @@ document.getElementById('attempts').innerHTML = attempts
 
 else {
 
-document.getElementById('textOutput').innerHTML = 'Congratulations! You guessed the right number!'
+document.getElementById('textOutput').innerHTML = 'Parabéns! Você encontrou o número correto!'
 attempts++
 document.getElementById('attempts').innerHTML = attempts
 document.getElementById('inputBox').setAttribute('Readonly', 'Readonly')
@@ -50,7 +50,7 @@ document.getElementById('inputBox').setAttribute('Readonly', 'Readonly')
 
 else {
 
-document.getElementById('textOutput').innerHTML = 'Sorry, you have reached the maximum number of attempts. The number was ' + computerNumber
+document.getElementById('textOutput').innerHTML = 'Desculpa, mas você excedeu o número máximo de tentativas. O número correto era: ' + computerNumber
 document.getElementById('inputBox').setAttribute('Readonly', 'Readonly')
 }
 
