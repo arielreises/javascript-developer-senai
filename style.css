@@ -4,6 +4,12 @@
     --background: #ffffff;
     --gradient-1: #3be335;
     --gradient-2: #000000;
+    --text-color: #ffffff;
+    --highlight: #EE4477;
+    --input-background: transparent;
+    --input-border: lightgray;
+    --button-background: #3cbb2b;
+    --button-hover-background: #46db19;
 }
 
 html {
@@ -41,22 +47,31 @@ p {
 
 .button-wrapper {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.button-wrapper div {
+    display: flex;
     gap: 1rem;
 }
 
 button {
     border: none;
     cursor: pointer;
-    background: var(--green);
-    padding: 2rem 6rem;
+    background: var(--button-background);
+    padding: 1rem 2rem;
     border-radius: 1rem;
     font-size: 1.4rem;
     font-family: Arial, Helvetica, sans-serif;
+    color: var(--text-color);
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 button:hover {
-    background: var(--green2);
+    background: var(--button-hover-background);
 }
 
 @media (min-width: 800px) {
