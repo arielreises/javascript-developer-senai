@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2</title>
+</head>
+<body>
+    <h1>Páginas desenvolvidas em sala:</h1>
+    <p><a href="./biografia.html">Biografia</a></p>
+    <p><a href="./index_filmes.html">Filmes</a></p>
+    <p><a href="./index_listas.html">Listas</a></p>
+    <p><a href="./index_receita.html">Receita</a></p>
+</body>
+</html>
