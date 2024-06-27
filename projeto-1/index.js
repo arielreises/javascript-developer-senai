@@ -17,7 +17,7 @@ function calculator() {
             break;
         case 'division':
             if (num2 === 0) {
-                document.getElementById('result').innerHTML = 'Error: Division by zero';
+                document.getElementById('result').innerHTML = 'Erro: Impossível dividir por zero.';
                 return;
             }
             total = num1 / num2;
@@ -27,7 +27,7 @@ function calculator() {
             break;
         case 'root':
             if (num1 < 0) {
-                document.getElementById('result').innerHTML = 'Error: Negative number for root';
+                document.getElementById('result').innerHTML = 'Erro: Raíz com número negativo.';
                 return;
             }
             total = Math.pow(num1, 1 / num2);
@@ -37,9 +37,9 @@ function calculator() {
             document.getElementById('result').innerHTML = 'Result: ' + total + '%';
             return;
         default:
-            document.getElementById('result').innerHTML = 'Error: Invalid operation';
+            document.getElementById('result').innerHTML = 'Erro: Operação Inválida';
             return;
     }
 
-    document.getElementById('result').innerHTML = 'Result: ' + total;
+    document.getElementById('result').innerHTML = 'Resultado: ' + total;
 }
