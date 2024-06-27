@@ -2,6 +2,10 @@
 
 Este repositório contém os projetos e aulas desenvolvidos no curso de JavaScript Developer do SENAI.
 
+## Link do site
+
+- [Site](https://arielreises.github.io/javascript-developer-senai/)
+
 ## Aulas
 
 - [Aula 1](https://github.com/arielreises/javascript-developer-senai/tree/main/aula-1)
